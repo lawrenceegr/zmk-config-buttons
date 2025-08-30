@@ -19,5 +19,7 @@
 #
 ---
 include:
-  - board: adafruit_kb2040
-    shield: eternal_keypad
+  - board: rpi_pico
+    shield: buttons
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
