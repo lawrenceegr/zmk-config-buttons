@@ -6,7 +6,7 @@
         
         default_layer {
             bindings = <
-                &kp R &kp T
+                &kp K_VOL_UP &kp K_VOL_DN
             >;
         };
     };
