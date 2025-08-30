@@ -1,4 +1,3 @@
-#include <physical_layouts.dtsi>
 / {
     chosen {
         zmk,kscan = &default_kscan;
